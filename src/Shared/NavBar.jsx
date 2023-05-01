@@ -1,7 +1,19 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from "../Provider/AuthProvider";
 
 const NavBar = () => {
+  const { user, logOut } = useContext(AuthContext);
+  // console.log(user);
+  const handleLogout =() =>{
+    logOut()
+    .then(()=>{
+      console.log('signout successfully')
+    })
+    .catch(error =>{
+      console.log(error.message)
+    })
+  }
   return (
     <div>
       <div className="navbar bg-base-100">
@@ -49,7 +61,9 @@ const NavBar = () => {
               </li>
             </ul>
           </div>
-          <Link to='/' className="btn btn-ghost normal-case text-xl">daisyUI</Link>
+          <Link to="/" className="btn btn-ghost normal-case text-xl">
+            daisyUI
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -77,26 +91,36 @@ const NavBar = () => {
         </div>
         <div className="navbar-end">
           <ul className="menu menu-horizontal px-1">
-            {/* <li>
-              <button className="w-16 rounded-full">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM0JDZI4xn0kQPu12n_eWYpS42jXuXThrKuS2o6w_82w&s" />
-              </button>
-            </li> */}
-
-            <li>
-              <NavLink
-                to="/login"
-                className={({ isActive, isPending }) =>
-                  isActive ? "bg-amber-600" : isPending ? "pending" : ""
-                }
-              >
-                Login
-              </NavLink>
-            </li>
+            {user ? (
+              <li>
+                <NavLink
+                onClick={handleLogout}
+                  to="/login"
+                  className={({ isActive, isPending }) =>
+                    isActive ? "bg-amber-600" : isPending ? "pending" : ""
+                  }
+                >
+                  LogOut
+                </NavLink>
+              </li>
+            ) : (
+              <li>
+                <NavLink
+                  to="/login"
+                  className={({ isActive, isPending }) =>
+                    isActive ? "bg-amber-600" : isPending ? "pending" : ""
+                  }
+                >
+                  Login
+                </NavLink>
+              </li>
+            )}
           </ul>
-          <button className="w-10 rounded-full ml-4">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM0JDZI4xn0kQPu12n_eWYpS42jXuXThrKuS2o6w_82w&s" />
+          {
+            user && <button title={user?.displayName} className="w-10 rounded-full ml-4">
+            <img className="w-10 rounded-full mr-4" src={user?.photoURL} />
           </button>
+          }
         </div>
       </div>
     </div>
