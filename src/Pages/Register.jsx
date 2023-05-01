@@ -23,16 +23,20 @@ const Register = () => {
       .then((result) => {
         const createdUser = result.user;
         form.reset();
+        userPhotoUpdate(name,photo);
         // console.log(createdUser);
       })
       .catch((error) => {
         console.log(error);
       });
 
+    
+  };
+  const userPhotoUpdate = (name,photo) =>{
     updateUser(name, photo)
       .then(() => {console.log('user updated')})
       .catch((error) => console.log(error));
-  };
+  }
 
   return (
     <div className="w-3/4 md:w-1/4 mx-auto my-14">

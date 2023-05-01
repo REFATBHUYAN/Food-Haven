@@ -1,16 +1,20 @@
 import React, { useContext, useState } from "react";
 import { FaGithubSquare, FaGoogle } from "react-icons/fa";
 import { AuthContext } from "../Provider/AuthProvider";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 const Login = () => {
     const [err, setErr] = useState('');
     const {googleSingIn, githubSingIn, loginUser} = useContext(AuthContext);
+    const navigate = useNavigate();
+    const location = useLocation();
+    const from = location.state?.from?.pathname || '/'
 
     const googleLogin = () =>{
         googleSingIn()
         .then(result =>{
             const loogedUser = result.user;
+            navigate(from, { replace: true })
             console.log(loogedUser);
         })
         .catch(error =>{
@@ -23,6 +27,7 @@ const Login = () => {
         githubSingIn()
         .then(result =>{
             const gitUser = result.user;
+            navigate(from, { replace: true })
             console.log(gitUser);
         })
         .catch(error =>{
@@ -42,6 +47,7 @@ const Login = () => {
       .then(result =>{
         const loogedUser = result.user;
         form.reset();
+        navigate(from, { replace: true })
         console.log(loogedUser);
       })
       .catch(error =>{
