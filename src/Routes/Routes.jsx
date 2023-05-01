@@ -5,6 +5,7 @@ import Blog from '../Pages/Blog';
 import Login from '../Pages/Login';
 import Register from '../Pages/Register';
 import ErrorPage from '../Pages/ErrorPage';
+import Home from '../Pages/Home/Home';
 
 const router = createBrowserRouter([
     {
@@ -14,7 +15,7 @@ const router = createBrowserRouter([
       children:[
         {
             path:'/',
-            element: <div>ami children</div>
+            element: <Home></Home>
         },
         {
             path:'/blog',
