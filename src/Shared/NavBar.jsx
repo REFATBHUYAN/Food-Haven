@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -28,44 +28,75 @@ const NavBar = () => {
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Item 1</a>
+                <NavLink
+                  to={`/`}
+                  className={({ isActive, isPending }) =>
+                    isActive ? "bg-amber-600" : isPending ? "pending" : ""
+                  }
+                >
+                  Home
+                </NavLink>
               </li>
               <li>
-                <a>Item 3</a>
+                <NavLink
+                  to="/blog"
+                  className={({ isActive, isPending }) =>
+                    isActive ? "bg-amber-600" : isPending ? "pending" : ""
+                  }
+                >
+                  Blog
+                </NavLink>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+          <Link to='/' className="btn btn-ghost normal-case text-xl">daisyUI</Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-            <NavLink
-              to={`/`}
-              className={({ isActive, isPending }) =>
-                isActive
-                  ? "bg-amber-600"
-                  : isPending
-                  ? "pending"
-                  : ""
-              }
-              >Home</NavLink>
+              <NavLink
+                to={`/`}
+                className={({ isActive, isPending }) =>
+                  isActive ? "bg-amber-600" : isPending ? "pending" : ""
+                }
+              >
+                Home
+              </NavLink>
             </li>
             <li>
               <NavLink
-              className={({ isActive, isPending }) =>
-                isActive
-                  ? "bg-amber-600"
-                  : isPending
-                  ? "pending"
-                  : ""
-              }
-              >Blog</NavLink>
+                to="/blog"
+                className={({ isActive, isPending }) =>
+                  isActive ? "bg-amber-600" : isPending ? "pending" : ""
+                }
+              >
+                Blog
+              </NavLink>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Get started</a>
+          <ul className="menu menu-horizontal px-1">
+            {/* <li>
+              <button className="w-16 rounded-full">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM0JDZI4xn0kQPu12n_eWYpS42jXuXThrKuS2o6w_82w&s" />
+              </button>
+            </li> */}
+
+            <li>
+              <NavLink
+                to="/login"
+                className={({ isActive, isPending }) =>
+                  isActive ? "bg-amber-600" : isPending ? "pending" : ""
+                }
+              >
+                Login
+              </NavLink>
+            </li>
+          </ul>
+          <button className="w-10 rounded-full ml-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM0JDZI4xn0kQPu12n_eWYpS42jXuXThrKuS2o6w_82w&s" />
+          </button>
         </div>
       </div>
     </div>
