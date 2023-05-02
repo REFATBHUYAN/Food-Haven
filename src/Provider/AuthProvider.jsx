@@ -15,7 +15,7 @@ const AuthProvider = ({children}) => {
     const [data, setData] = useState([]);
 
     useEffect(()=>{
-        fetch('/data/combined.json')
+        fetch('https://assignment-10-batch7-server.vercel.app/chef')
         .then(res => res.json())
         .then(data =>{
             setData(data) 

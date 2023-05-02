@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import SingleRecipes from "./SingleRecipes";
 import { ScrollRestoration } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
+import LazyLoad from "react-lazy-load";
 
 const Recipes = () => {
   // const [chef, setChef] = useState([]);
@@ -11,7 +12,7 @@ const Recipes = () => {
   const { id } = useParams();
   // console.log(id);
   // const data = useContext(DataContext);
-  const {data} = useContext(AuthContext);
+  const { data } = useContext(AuthContext);
   const singleData = data.find((d) => d.id == id);
   //   setChef(singleData);
   const {
@@ -26,27 +27,15 @@ const Recipes = () => {
   // console.log(singleData);
   return (
     <div className="bg-orange-50 max-w-full mx-auto">
-      {/* <div className="card card-side bg-orange-50 shadow-sm rounded-none max-w-7xl mx-auto">
-        <figure className="w-full">
-          <img className="w-full rounded-md" src={chefPicture} alt="Movie" />
-        </figure>
-        <div className="card-body">
-          <h2 className="card-title">{chefName}</h2>
-          <p>{bio}</p>
-          <p className="text-start font-semibold">
-            Experience: {yearsOfExperience}
-          </p>
-          <p className="text-start font-semibold">Likes: {ratings}</p>
-          <p className="text-start font-semibold">
-            Number of Recipes: {numberOfRecipes}
-          </p>
-        </div>
-      </div> */}
-
       <div className="grid md:grid-cols-2 sm: grid-cols-1 gap-4 text-center max-w-7xl mx-auto p-5">
-        <figure className="w-full">
+        {/* <figure className="w-full">
           <img className="w-full rounded-md" src={chefPicture} alt="Movie" />
-        </figure>
+        </figure> */}
+        <div className="w-full">
+          <LazyLoad height={500}>
+            <img className="w-full h-full rounded-md" src={chefPicture} alt="Movie" />
+          </LazyLoad>
+        </div>
         <div className="card-body">
           <h2 className="card-title">{chefName}</h2>
           <p className="text-start">{bio}</p>
