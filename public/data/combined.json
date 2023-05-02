@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "chefPicture": "https://i.ibb.co/gg6ftfz/image.png",
+    "chefName": "Alice Smith",
+    "yearsOfExperience": 10,
+    "numberOfRecipes": 50,
+    "ratings": 4.8,
+    "recipi": [
+      {
+        "id": 1,
+        "Picture": "https://i.ibb.co/rMLYyC4/image-6.png",
+        "recipeName": "Classic Spaghetti Bolognese",
+        "ingredients": [
+          "spaghetti",
+          "ground beef",
+          "tomatoes",
+          "onion",
+          "garlic"
+        ],
+        "cookingMethod": "1. Cook spaghetti according to package instructions. 2. Brown ground beef in a large skillet over medium-high heat. 3. Add diced onion and minced garlic to the skillet and cook until softened. 4. Add crushed tomatoes and simmer for 10 minutes. 5. Serve the sauce over the spaghetti.",
+        "rating": 4.5
+      },
+      {
+        "id": 2,
+        "Picture": "https://i.ibb.co/MNWvX6H/image-7.png",
+        "recipeName": "Homemade Pizza",
+        "ingredients": [
+          "pizza dough",
+          "tomato sauce",
+          "mozzarella cheese",
+          "pepperoni",
+          "mushrooms"
+        ],
+        "cookingMethod": "1. Preheat oven to 450°F. 2. Roll out pizza dough on a floured surface. 3. Spread tomato sauce over the dough. 4. Add shredded mozzarella cheese on top of the sauce. 5. Add pepperoni and sliced mushrooms. 6. Bake for 12-15 minutes or until crust is golden brown. 7. Slice and serve.",
+        "rating": 4.8
+      },
+      {
+        "id": 3,
+        "Picture": "https://i.ibb.co/ggZ7Z0m/image-8.png",
+        "recipeName": "Chicken Teriyaki",
+        "ingredients": [
+          "chicken breast",
+          "soy sauce",
+          "brown sugar",
+          "garlic",
+          "sesame seeds"
+        ],
+        "cookingMethod": "1. Cut chicken breast into bite-sized pieces. 2. In a small bowl, whisk together soy sauce, brown sugar, and minced garlic. 3. Heat a large skillet over medium-high heat. 4. Add the chicken and pour the soy sauce mixture over it. 5. Cook until the chicken is cooked through and the sauce has thickened. 6. Serve over rice and sprinkle with sesame seeds.",
+        "rating": 4.3
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "chefPicture": "https://i.ibb.co/Jz8SCLd/image-1.png",
+    "chefName": "John Doe",
+    "yearsOfExperience": 5,
+    "numberOfRecipes": 20,
+    "ratings": 4.5,
+    "recipi": [
+      {
+        "id": 4,
+        "Picture": "https://i.ibb.co/dgT9T2z/image-9.png",
+        "recipeName": "Roasted Vegetable Salad",
+        "ingredients": [
+          "mixed vegetables (zucchini, bell pepper, eggplant, etc.)",
+          "olive oil",
+          "balsamic vinegar",
+          "salt",
+          "pepper"
+        ],
+        "cookingMethod": "1. Preheat oven to 400°F. 2. Cut the vegetables into bite-sized pieces. 3. Toss the vegetables in olive oil, balsamic vinegar, salt, and pepper. 4. Spread the vegetables on a baking sheet. 5. Roast in the oven for 20-25 minutes, or until the vegetables are tender and lightly browned. 6. Serve warm or at room temperature.",
+        "rating": 4.1
+      },
+      {
+        "id": 5,
+        "Picture": "https://i.ibb.co/qYMKzQz/image-10.png",
+        "recipeName": "Beef Stew",
+        "ingredients": [
+          "beef chuck",
+          "carrots",
+          "potatoes",
+          "onion",
+          "beef broth"
+        ],
+        "cookingMethod": "1. Cut beef chuck into bite-sized pieces. 2. In a large pot or Dutch oven, brown the beef over medium-high heat. 3. Add diced onion, sliced carrots, and cubed potatoes to the pot. 4. Pour beef broth over the ingredients. 5. Bring the stew to a boil, then reduce heat and simmer for 1-2 hours, or until the beef is tender. 6. Serve hot.",
+        "rating": 4.6
+      },
+      {
+        "id": 6,
+        "Picture": "https://i.ibb.co/b3PRMgF/image-11.png",
+        "recipeName": "Garlic Shrimp Scampi",
+        "ingredients": ["spaghetti", "shrimp", "garlic", "butter", "lemon"],
+        "cookingMethod": "1. Cook spaghetti according to package instructions. 2. Melt butter in a large skillet over medium heat. 3. Add minced garlic to the skillet and cook until fragrant. 4. Add the shrimp to the skillet and cook until pink. 5. Add the cooked spaghetti to the skillet and toss with the shrimp and garlic butter sauce. 6. Squeeze fresh lemon juice over the top and serve.",
+        "rating": 4.7
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "chefPicture": "https://i.ibb.co/9r3QyJ7/image-2.png",
+    "chefName": "Emily Kim",
+    "yearsOfExperience": 8,
+    "numberOfRecipes": 35,
+    "ratings": 4.7,
+    "recipi": [
+      {
+        "id": 7,
+        "Picture": "https://i.ibb.co/JnWjrHq/image-12.png",
+        "recipeName": "Beef Tacos",
+        "ingredients": [
+          "beef",
+          "taco seasoning",
+          "taco shells",
+          "lettuce",
+          "tomatoes"
+        ],
+        "cookingMethod": "1. Brown ground beef in a large skillet over medium-high heat. 2. Add taco seasoning and stir to combine. 3. Heat taco shells in the oven according to package instructions. 4. Assemble tacos by filling each shell with seasoned beef, shredded lettuce, and diced tomatoes. 5. Serve with your favorite toppings.",
+        "rating": 4.4
+      },
+      {
+        "id": 8,
+        "Picture": "https://i.ibb.co/sgqzVp0/image-13.png",
+        "recipeName": "Caprese Salad",
+        "ingredients": [
+          "tomatoes",
+          "fresh mozzarella",
+          "basil leaves",
+          "olive oil",
+          "balsamic vinegar"
+        ],
+        "cookingMethod": "1. Slice tomatoes and fresh mozzarella into 1/4-inch thick rounds. 2. Arrange the slices in a circular pattern on a large platter. 3. Add basil leaves on top of the cheese and tomatoes. 4. Drizzle olive oil and balsamic vinegar over the top of the salad. 5. Season with salt and pepper, to taste. 6. Serve at room temperature.",
+        "rating": 4.2
+      },
+      {
+        "id": 9,
+        "Picture": "https://i.ibb.co/r7LXK1b/image-14.png",
+        "recipeName": "Vegetable Fried Rice",
+        "ingredients": [
+          "rice",
+          "mixed vegetables (carrots, peas, corn, etc.)",
+          "eggs",
+          "soy sauce",
+          "sesame oil"
+        ],
+        "cookingMethod": "1. Cook rice according to package instructions. 2. In a large skillet or wok, scramble eggs over high heat. 3. Add the mixed vegetables to the skillet and stir-fry until tender. 4. Add cooked rice to the skillet and stir-fry until heated through. 5. Drizzle with soy sauce and sesame oil, and toss to combine. 6. Serve hot.",
+        "rating": 4.0
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "chefPicture": "https://i.ibb.co/WcqgLHr/image-3.png",
+    "chefName": "James Brown",
+    "yearsOfExperience": 15,
+    "numberOfRecipes": 80,
+    "ratings": 4.9,
+    "recipi": [
+      {
+        "id": 10,
+        "Picture": "https://i.ibb.co/q9dXR9V/image-15.png",
+        "recipeName": "Grilled Chicken Salad",
+        "ingredients": [
+          "chicken breast",
+          "mixed greens",
+          "cucumber",
+          "tomato",
+          "avocado"
+        ],
+        "cookingMethod": "1. Season chicken breast with salt and pepper. 2. Grill the chicken over medium-high heat until cooked through. 3. Slice the chicken into thin strips. 4. Arrange mixed greens on a plate. 5. Add sliced cucumber, tomato, and avocado on top of the greens. 6. Add sliced chicken on top of the salad. 7. Drizzle with your favorite dressing and serve.",
+        "rating": 4.3
+      },
+      {
+        "id": 11,
+        "Picture": "https://i.ibb.co/JvhBB6F/image-16.png",
+        "recipeName": "Beef Stroganoff",
+        "ingredients": [
+          "beef",
+          "mushrooms",
+          "onion",
+          "sour cream",
+          "beef broth"
+        ],
+        "cookingMethod": "1. Cook egg noodles according to package instructions. 2. In a large skillet, cook beef and onions over medium heat until browned. 3. Add mushrooms and continue cooking until they are tender. 4. Stir in sour cream and beef broth. 5. Simmer until the sauce is heated through. 6. Serve over cooked egg noodles.",
+        "rating": 4.5
+      },
+      {
+        "id": 12,
+        "Picture": "https://i.ibb.co/FsD6bdy/image-17.png",
+        "recipeName": "Chicken Alfredo",
+        "ingredients": [
+          "chicken",
+          "fettuccine",
+          "butter",
+          "heavy cream",
+          "parmesan cheese"
+        ],
+        "cookingMethod": "1. Cook fettuccine according to package instructions. 2. In a large skillet, melt butter over medium heat. 3. Add chicken to the skillet and cook until no longer pink. 4. Pour in heavy cream and bring to a simmer. 5. Add grated parmesan cheese and stir until melted. 6. Toss the cooked fettuccine in the sauce until well coated. 7. Serve hot.",
+        "rating": 4.6
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "chefPicture": "https://i.ibb.co/jfdSLy4/image-4.png",
+    "chefName": "Lucy Lee",
+    "yearsOfExperience": 3,
+    "numberOfRecipes": 10,
+    "ratings": 4.2,
+    "recipi": [
+      {
+        "id": 13,
+        "Picture": "https://i.ibb.co/MNWvX6H/image-7.png",
+        "recipeName": "Fish Tacos",
+        "ingredients": [
+          "white fish",
+          "taco seasoning",
+          "taco shells",
+          "cabbage",
+          "lime"
+        ],
+        "cookingMethod": "1. Coat fish with taco seasoning. 2. Heat a large skillet over medium-high heat. 3. Cook the fish in the skillet until it flakes easily. 4. Heat taco shells in the oven according to package instructions. 5. Assemble tacos by filling each shell with cooked fish, shredded cabbage, and a squeeze of fresh lime juice. 6. Serve with your favorite toppings.",
+        "rating": 4.1
+      },
+      {
+        "id": 14,
+        "Picture": "https://i.ibb.co/b3PRMgF/image-11.png",
+        "recipeName": "Pesto Pasta",
+        "ingredients": [
+          "pasta",
+          "basil pesto",
+          "grape tomatoes",
+          "parmesan cheese",
+          "pine nuts"
+        ],
+        "cookingMethod": "1. Cook pasta according to package instructions. 2. In a large skillet, heat basil pesto over medium heat. 3. Add grape tomatoes and cook until they burst. 4. Add cooked pasta to the skillet and toss with the pesto sauce. 5. Sprinkle with grated parmesan cheese and toasted pine nuts. 6. Serve hot.",
+        "rating": 4.4
+      },
+      {
+        "id": 15,
+        "Picture": "https://i.ibb.co/q9dXR9V/image-15.png",
+        "recipeName": "Roasted Vegetables",
+        "ingredients": [
+          "butternut squash",
+          "sweet potato",
+          "onion",
+          "bell pepper",
+          "olive oil"
+        ],
+        "cookingMethod": "1. Preheat oven to 400 degrees F. 2. Peel and chop butternut squash and sweet potato into 1-inch cubes. 3. Cut onion and bell pepper into large pieces. 4. Toss vegetables with olive oil and spread onto a large baking sheet. 5. Roast in the oven for 30-35 minutes, or until vegetables are tender and browned. 6. Serve hot.",
+        "rating": 4.0
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "chefPicture": "https://i.ibb.co/0VG05zG/image-5.png",
+    "chefName": "David Chen",
+    "yearsOfExperience": 12,
+    "numberOfRecipes": 60,
+    "ratings": 4.6,
+    "recipi": [
+      {
+        "id": 16,
+        "Picture": "https://i.ibb.co/FsD6bdy/image-17.png",
+        "recipeName": "Baked Salmon",
+        "ingredients": [
+          "salmon fillets",
+          "butter",
+          "lemon juice",
+          "dill",
+          "garlic"
+        ],
+        "cookingMethod": "1. Preheat oven to 375 degrees F. 2. Melt butter in a small saucepan. 3. Add lemon juice, dill, and minced garlic to the melted butter. 4. Brush the butter mixture onto the salmon fillets. 5. Place salmon fillets in a baking dish and bake for 15-20 minutes, or until salmon is cooked through. 6. Serve hot.",
+        "rating": 4.3
+      },
+      {
+        "id": 17,
+        "Picture": "https://i.ibb.co/dgT9T2z/image-9.png",
+        "recipeName": "Shrimp Scampi",
+        "ingredients": [
+          "shrimp",
+          "butter",
+          "garlic",
+          "white wine",
+          "lemon juice"
+        ],
+        "cookingMethod": "1. Cook pasta according to package instructions. 2. In a large skillet, melt butter over medium heat. 3. Add minced garlic to the skillet and cook for 1-2 minutes. 4. Add shrimp to the skillet and cook until pink. 5. Pour in white wine and lemon juice and bring to a simmer. 6. Toss cooked pasta in the sauce until well coated. 7. Serve hot.",
+        "rating": 4.8
+      },
+      {
+        "id": 18,
+        "Picture": "https://i.ibb.co/sgqzVp0/image-13.png",
+        "recipeName": "Cauliflower Fried Rice",
+        "ingredients": ["cauliflower", "carrots", "peas", "eggs", "soy sauce"],
+        "cookingMethod": "1. Cut cauliflower into small florets and pulse in a food processor until it resembles rice. 2. Heat a large skillet over medium-high heat. 3. Add diced carrots to the skillet and cook until slightly tender. 4. Add cauliflower rice and frozen peas to the skillet and cook until heated through. 5. In a separate skillet, scramble eggs and add to the cauliflower mixture. 6. Drizzle soy sauce over the cauliflower mixture and toss until well combined. 7. Serve hot.",
+        "rating": 4.2
+      }
+    ]
+  }
+]

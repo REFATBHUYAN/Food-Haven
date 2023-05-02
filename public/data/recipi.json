@@ -2,6 +2,7 @@
   {
     "id": 1,
     "chefid": 1,
+    "Picture": "https://i.ibb.co/WcqgLHr/image-3.png",
     "recipeName": "Classic Spaghetti Bolognese",
     "ingredients": ["spaghetti", "ground beef", "tomatoes", "onion", "garlic"],
     "cookingMethod": "1. Cook spaghetti according to package instructions. 2. Brown ground beef in a large skillet over medium-high heat. 3. Add diced onion and minced garlic to the skillet and cook until softened. 4. Add crushed tomatoes and simmer for 10 minutes. 5. Serve the sauce over the spaghetti.",
