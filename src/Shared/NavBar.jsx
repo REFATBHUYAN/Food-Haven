@@ -43,7 +43,7 @@ const NavBar = () => {
                 <NavLink
                   to={`/`}
                   className={({ isActive, isPending }) =>
-                    isActive ? "bg-amber-600" : isPending ? "pending" : ""
+                    isActive ? "bg-amber-400" : isPending ? "pending" : ""
                   }
                 >
                   Home
@@ -53,7 +53,7 @@ const NavBar = () => {
                 <NavLink
                   to="/blog"
                   className={({ isActive, isPending }) =>
-                    isActive ? "bg-amber-600" : isPending ? "pending" : ""
+                    isActive ? "bg-amber-400" : isPending ? "pending" : ""
                   }
                 >
                   Blog
@@ -71,7 +71,7 @@ const NavBar = () => {
               <NavLink
                 to={`/`}
                 className={({ isActive, isPending }) =>
-                  isActive ? "bg-amber-600" : isPending ? "pending" : ""
+                  isActive ? "bg-amber-400" : isPending ? "pending" : ""
                 }
               >
                 Home
@@ -81,7 +81,7 @@ const NavBar = () => {
               <NavLink
                 to="/blog"
                 className={({ isActive, isPending }) =>
-                  isActive ? "bg-amber-600" : isPending ? "pending" : ""
+                  isActive ? "bg-amber-400" : isPending ? "pending" : ""
                 }
               >
                 Blog
@@ -97,7 +97,7 @@ const NavBar = () => {
                 onClick={handleLogout}
                   to="/login"
                   className={({ isActive, isPending }) =>
-                    isActive ? "bg-amber-600" : isPending ? "pending" : ""
+                    isActive ? "bg-amber-400" : isPending ? "pending" : ""
                   }
                 >
                   LogOut
@@ -108,7 +108,7 @@ const NavBar = () => {
                 <NavLink
                   to="/login"
                   className={({ isActive, isPending }) =>
-                    isActive ? "bg-amber-600" : isPending ? "pending" : ""
+                    isActive ? "bg-amber-400" : isPending ? "pending" : ""
                   }
                 >
                   Login

@@ -5,7 +5,8 @@
     "chefName": "Alice Smith",
     "yearsOfExperience": 10,
     "numberOfRecipes": 50,
-    "ratings": 4.8,
+    "ratings": 400,
+    "bio":"Alice Smith is an experienced chef with 10 years of culinary expertise under her belt. She has a diverse repertoire of 50 recipes that she has crafted with great care and attention to detail. Her passion for cooking and dedication to her craft is evident in the quality of her dishes. With 400 likes, Alice has gained a loyal following for her delicious and innovative recipes. She believes that cooking is an art form that allows her to express her creativity and connect with people through food. Alice's commitment to excellence and her ability to delight people's taste buds make her a sought-after chef in the culinary world.",
     "recipi": [
       {
         "id": 1,
@@ -57,7 +58,8 @@
     "chefName": "John Doe",
     "yearsOfExperience": 5,
     "numberOfRecipes": 20,
-    "ratings": 4.5,
+    "ratings": 500,
+    "bio":"John Doe is a talented and ambitious chef with 5 years of experience in the culinary industry. Despite his relatively short time in the profession, he has already developed an impressive collection of 20 unique and flavorful recipes. With a remarkable rating of 500, it's clear that John's food resonates with his audience. He prides himself on using only the freshest ingredients and innovative techniques to create dishes that are both visually stunning and delicious. ",
     "recipi": [
       {
         "id": 4,
@@ -103,7 +105,8 @@
     "chefName": "Emily Kim",
     "yearsOfExperience": 8,
     "numberOfRecipes": 35,
-    "ratings": 4.7,
+    "ratings": 700,
+    "bio":"Emily Kim is a skilled and creative chef with 8 years of experience in the culinary field. She has curated an impressive collection of 35 recipes that are sure to tantalize taste buds. With an impressive rating of 700, Emily has earned a reputation for delivering high-quality food that exceeds expectations. Her dedication to her craft is evident in the innovative techniques and unique flavor combinations she uses to create her dishes. Emily is a rising star in the culinary world, and her passion for food and commitment to excellence make her a force to be reckoned with.",
     "recipi": [
       {
         "id": 7,
@@ -155,7 +158,8 @@
     "chefName": "James Brown",
     "yearsOfExperience": 15,
     "numberOfRecipes": 80,
-    "ratings": 4.9,
+    "ratings": 900,
+    "bio":"James Brown is a talented and ambitious chef with 15 years of experience in the culinary industry. Despite his relatively short time in the profession, he has already developed an impressive collection of 80 unique and flavorful recipes. With a remarkable rating of 900, it's clear that John's food resonates with his audience. He prides himself on using only the freshest ingredients and innovative techniques to create dishes that are both visually stunning and delicious. ",
     "recipi": [
       {
         "id": 10,
@@ -207,7 +211,8 @@
     "chefName": "Lucy Lee",
     "yearsOfExperience": 3,
     "numberOfRecipes": 10,
-    "ratings": 4.2,
+    "ratings": 200,
+    "bio":"Lucy Lee is a talented and ambitious chef with 3 years of experience in the culinary industry. Despite his relatively short time in the profession, he has already developed an impressive collection of 10 unique and flavorful recipes. With a remarkable rating of 200, it's clear that John's food resonates with his audience. He prides himself on using only the freshest ingredients and innovative techniques to create dishes that are both visually stunning and delicious. ",
     "recipi": [
       {
         "id": 13,
@@ -259,7 +264,8 @@
     "chefName": "David Chen",
     "yearsOfExperience": 12,
     "numberOfRecipes": 60,
-    "ratings": 4.6,
+    "ratings": 650,
+    "bio":"David Chen is a talented and ambitious chef with 12 years of experience in the culinary industry. Despite his relatively short time in the profession, he has already developed an impressive collection of 60 unique and flavorful recipes. With a remarkable rating of 650, it's clear that John's food resonates with his audience. He prides himself on using only the freshest ingredients and innovative techniques to create dishes that are both visually stunning and delicious. ",
     "recipi": [
       {
         "id": 16,

@@ -3,7 +3,7 @@ import React from "react";
 const Banner = () => {
   return (
     <div className="max-w-full mx-auto w-full bg-orange-100">
-      <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4 mx-auto py-12 items-center max-w-7xl">
+      <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4 mx-auto py-12 items-center max-w-7xl px-5 ">
         <div className="w-full pl-4">
           {/* className="md:flex mx-5 mt-8 w-full" */}
           <h1 className="font-bold text-3xl md:text-6xl">
