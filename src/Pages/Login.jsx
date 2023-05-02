@@ -8,14 +8,15 @@ const Login = () => {
     const {googleSingIn, githubSingIn, loginUser} = useContext(AuthContext);
     const navigate = useNavigate();
     const location = useLocation();
-    const from = location.state?.from?.pathname || '/'
+    // console.log(location);
+    const from = location.state?.from?.pathname || '/';
 
     const googleLogin = () =>{
         googleSingIn()
         .then(result =>{
             const loogedUser = result.user;
             navigate(from, { replace: true })
-            console.log(loogedUser);
+            // console.log(loogedUser);
         })
         .catch(error =>{
             const errorMessage = error.message;
@@ -97,7 +98,7 @@ const Login = () => {
         >
           Login
         </button>
-        <p className="font-bold mt-3">Don't have any Account ? Please ... <Link to='/register' className="text-blue-600 underline">Register</Link> </p>
+        <p className="font-bold mt-3">Don't have any Account ? Please ... <Link state={{from: location?.state}} to='/register' className="text-blue-600 underline">Register</Link> </p>
       </form>
       <div className="my-5">
         <button onClick={googleLogin} className="flex font-bold items-center justify-center gap-4 border rounded-md w-full mx-auto py-2 text-center"> <FaGoogle></FaGoogle> Login With Google</button>

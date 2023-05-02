@@ -7,11 +7,11 @@ import Register from '../Pages/Register';
 import ErrorPage from '../Pages/ErrorPage';
 import Home from '../Pages/Home/Home';
 import Recipes from '../Pages/Recipes';
+import PrivateRoutes from './PrivateRoutes';
 
 const router = createBrowserRouter([
     {
       path: "/",
-      loader: () => fetch('/data/combined.json'),
       errorElement: <ErrorPage></ErrorPage>,
       element: <MainLayout></MainLayout>,
       children:[
@@ -33,7 +33,7 @@ const router = createBrowserRouter([
         },
         {
             path:'/:id',
-            element: <Recipes></Recipes>
+            element: <PrivateRoutes><Recipes></Recipes></PrivateRoutes>
         }
       ]
     },

@@ -1,11 +1,11 @@
 import React, { useContext } from "react";
-import { DataContext } from "../../Layouts/MainLayout";
+// import { DataContext } from "../../Layouts/MainLayout";
 import SingleChef from "./SingleChef";
+import { AuthContext } from "../../Provider/AuthProvider";
 
 const Chef = () => {
-  const data = useContext(DataContext);
-//   console.log(data);
-  const { chefName } = data;
+  const {data} = useContext(AuthContext);
+  // const { chefName } = data;
   return (
     <div className="max-w-full mx-auto py-10 bg-orange-50">
       <div className="max-w-7xl mx-auto p-10">

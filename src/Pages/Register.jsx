@@ -1,10 +1,14 @@
 import React, { useContext, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
 
 const Register = () => {
   const { createUser, updateUser } = useContext(AuthContext);
   const [err, setErr] = useState("");
+  const navigate = useNavigate();
+    const location = useLocation();
+    console.log(location);
+    const from = location.state?.from?.from?.pathname || '/';
 
   const resterUser = (e) => {
     e.preventDefault();
@@ -24,6 +28,7 @@ const Register = () => {
         const createdUser = result.user;
         form.reset();
         userPhotoUpdate(name,photo);
+        navigate(from, { replace: true })
         // console.log(createdUser);
       })
       .catch((error) => {

@@ -1,14 +1,17 @@
 import React, { useContext, useState } from "react";
 import { useParams } from "react-router-dom";
-import { DataContext } from "../Layouts/MainLayout";
+// import { DataContext } from "../Layouts/MainLayout";
 import SingleRecipes from "./SingleRecipes";
 import { ScrollRestoration } from "react-router-dom";
+import { AuthContext } from "../Provider/AuthProvider";
 
 const Recipes = () => {
   // const [chef, setChef] = useState([]);
+
   const { id } = useParams();
   // console.log(id);
-  const data = useContext(DataContext);
+  // const data = useContext(DataContext);
+  const {data} = useContext(AuthContext);
   const singleData = data.find((d) => d.id == id);
   //   setChef(singleData);
   const {
@@ -20,7 +23,7 @@ const Recipes = () => {
     yearsOfExperience,
     numberOfRecipes,
   } = singleData;
-  console.log(singleData);
+  // console.log(singleData);
   return (
     <div className="bg-orange-50 max-w-full mx-auto">
       {/* <div className="card card-side bg-orange-50 shadow-sm rounded-none max-w-7xl mx-auto">

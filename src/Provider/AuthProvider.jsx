@@ -11,6 +11,17 @@ const auth = getAuth(app);
 const AuthProvider = ({children}) => {
     const [user, setUser] = useState(null);
     const [loading, setLoading] = useState(true);
+    const [dataLoading, setDataLoading] = useState(true);
+    const [data, setData] = useState([]);
+
+    useEffect(()=>{
+        fetch('/data/combined.json')
+        .then(res => res.json())
+        .then(data =>{
+            setData(data) 
+            setDataLoading(false)})
+    },[])
+    // console.log(data);
 
     const googleSingIn =() =>{
         return signInWithPopup(auth, googleProvider)
@@ -57,7 +68,9 @@ const AuthProvider = ({children}) => {
         updateUser,
         loginUser,
         logOut,
-        loading
+        loading,
+        data,
+        dataLoading
     };
     return (
         <AuthContext.Provider value={authInfo}>
