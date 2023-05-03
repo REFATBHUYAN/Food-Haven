@@ -32,7 +32,7 @@ const Recipes = () => {
           <img className="w-full rounded-md" src={chefPicture} alt="Movie" />
         </figure> */}
         <div className="w-full">
-          <LazyLoad height={500}>
+          <LazyLoad height={500} threshold={0.95}>
             <img className="w-full h-full rounded-md" src={chefPicture} alt="Movie" />
           </LazyLoad>
         </div>

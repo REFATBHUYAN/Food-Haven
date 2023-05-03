@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const SingleChef = ({ sinData }) => {
-  // console.log(sinData);
   const {
     chefPicture,
     chefName,
