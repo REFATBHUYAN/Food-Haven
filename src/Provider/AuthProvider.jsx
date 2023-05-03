@@ -13,9 +13,10 @@ const AuthProvider = ({children}) => {
     const [loading, setLoading] = useState(true);
     const [dataLoading, setDataLoading] = useState(true);
     const [data, setData] = useState([]);
+    // https://assignment-10-batch7-server-refatbhuyan.vercel.app/chef
     // https://assignment-10-batch7-server.vercel.app/chef
     useEffect(()=>{
-        fetch('/data/combined.json')
+        fetch('https://assignment-10-batch7-server-refatbhuyan.vercel.app/chef')
         .then(res => res.json())
         .then(data =>{
             setData(data) 
