@@ -38,13 +38,13 @@ const AuthProvider = ({children}) => {
         return signInWithEmailAndPassword(auth,email, password);
     }
     const logOut = () => {
-        setLoading(true);
+        setLoading(true); 
         return signOut(auth);
     }
-    const updateUser = (name, photo) =>{
+    const updateUser = (user,name, photo) =>{
         setLoading(true);
         // console.log(auth.currentUser);
-        return updateProfile(auth.currentUser,{
+        return updateProfile(user,{
             displayName: name, 
             photoURL: photo
           })

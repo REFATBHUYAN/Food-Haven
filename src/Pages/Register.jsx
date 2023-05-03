@@ -1,14 +1,15 @@
 import React, { useContext, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
+import { Toaster, toast } from "react-hot-toast";
 
 const Register = () => {
-  const { createUser, updateUser } = useContext(AuthContext);
+  const { createUser, updateUser, logOut } = useContext(AuthContext);
   const [err, setErr] = useState("");
   const navigate = useNavigate();
-    const location = useLocation();
-    console.log(location);
-    const from = location.state?.from?.from?.pathname || '/';
+  const location = useLocation();
+  console.log(location);
+  const from = location.state?.from?.from?.pathname || "/";
 
   const resterUser = (e) => {
     e.preventDefault();
@@ -27,21 +28,23 @@ const Register = () => {
       .then((result) => {
         const createdUser = result.user;
         form.reset();
-        userPhotoUpdate(name,photo);
-        navigate(from, { replace: true })
+        userPhotoUpdate(createdUser, name, photo);
+        logOut();
+        toast.success('Register Successfully!--- please go to Login')
+        // navigate("/login");
         // console.log(createdUser);
       })
       .catch((error) => {
         console.log(error);
       });
-
-    
   };
-  const userPhotoUpdate = (name,photo) =>{
-    updateUser(name, photo)
-      .then(() => {console.log('user updated')})
+  const userPhotoUpdate = (user, name, photo) => {
+    updateUser(user, name, photo)
+      .then(() => {
+        console.log("user updated");
+      })
       .catch((error) => console.log(error));
-  }
+  };
 
   return (
     <div className="w-3/4 md:w-1/4 mx-auto my-14">
@@ -124,6 +127,7 @@ const Register = () => {
         </p>
       </form>
       <div className="text-red-600 my-4 font-bold">{err}</div>
+      <Toaster position="top-center" reverseOrder={false} />
     </div>
   );
 };
