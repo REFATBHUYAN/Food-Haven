@@ -4,15 +4,8 @@ import { AuthContext } from "../Provider/AuthProvider";
 
 const NavBar = () => {
   const { user, logOut } = useContext(AuthContext);
-  // console.log(user);
   const handleLogout =() =>{
-    logOut()
-    .then(()=>{
-      console.log('signout successfully')
-    })
-    .catch(error =>{
-      console.log(error.message)
-    })
+    logOut();
   }
   return (
     <div className="max-w-full mx-auto w-full bg-orange-100">

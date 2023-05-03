@@ -8,7 +8,7 @@ const Login = () => {
     const {googleSingIn, githubSingIn, loginUser} = useContext(AuthContext);
     const navigate = useNavigate();
     const location = useLocation();
-    // console.log(location);
+    
     const from = location.state?.from?.pathname || '/';
 
     const googleLogin = () =>{
@@ -16,12 +16,12 @@ const Login = () => {
         .then(result =>{
             const loogedUser = result.user;
             navigate(from, { replace: true })
-            // console.log(loogedUser);
+            
         })
         .catch(error =>{
             const errorMessage = error.message;
             setErr(error.message)
-            console.log(errorMessage);
+            
         })
     }
     const githubLogin = () =>{
@@ -29,12 +29,12 @@ const Login = () => {
         .then(result =>{
             const gitUser = result.user;
             navigate(from, { replace: true })
-            console.log(gitUser);
+            
         })
         .catch(error =>{
             const errorMessage = error.message;
             setErr(error.message)
-            console.log(errorMessage);
+            
         })
     }
     const hangleLogin =(e) =>{
@@ -42,17 +42,17 @@ const Login = () => {
       const form = e.target;
       const email = form.email.value;
       const password = form.password.value;
-      console.log(email, password);
+      
       setErr('');
       loginUser(email, password)
       .then(result =>{
         const loogedUser = result.user;
         form.reset();
         navigate(from, { replace: true })
-        console.log(loogedUser);
+        
       })
       .catch(error =>{
-        console.log(error);
+        
         setErr(error.message)
       })
     }

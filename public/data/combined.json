@@ -6,48 +6,48 @@
     "yearsOfExperience": 10,
     "numberOfRecipes": 50,
     "ratings": 400,
-    "bio":"Alice Smith is an experienced chef with 10 years of culinary expertise under her belt. She has a diverse repertoire of 50 recipes that she has crafted with great care and attention to detail. Her passion for cooking and dedication to her craft is evident in the quality of her dishes. With 400 likes, Alice has gained a loyal following for her delicious and innovative recipes. She believes that cooking is an art form that allows her to express her creativity and connect with people through food. Alice's commitment to excellence and her ability to delight people's taste buds make her a sought-after chef in the culinary world.",
+    "bio": "Alice Smith is an experienced chef with 10 years of culinary expertise under her belt. She has a diverse repertoire of 50 recipes that she has crafted with great care and attention to detail. Her passion for cooking and dedication to her craft is evident in the quality of her dishes. With 400 likes, Alice has gained a loyal following for her delicious and innovative recipes. She believes that cooking is an art form that allows her to express her creativity and connect with people through food. Alice's commitment to excellence and her ability to delight people's taste buds make her a sought-after chef in the culinary world.",
     "recipi": [
       {
         "id": 1,
         "Picture": "https://i.ibb.co/rMLYyC4/image-6.png",
-        "recipeName": "Classic Spaghetti Bolognese",
+        "recipeName": "Classic Cheeseburger",
         "ingredients": [
-          "spaghetti",
           "ground beef",
-          "tomatoes",
-          "onion",
-          "garlic"
+          "cheddar cheese",
+          "lettuce",
+          "tomato",
+          "hamburger bun"
         ],
-        "cookingMethod": "1. Cook spaghetti according to package instructions. 2. Brown ground beef in a large skillet over medium-high heat. 3. Add diced onion and minced garlic to the skillet and cook until softened. 4. Add crushed tomatoes and simmer for 10 minutes. 5. Serve the sauce over the spaghetti.",
+        "cookingMethod": "1. Preheat grill or skillet. 2. Form beef into patties and cook for 4-5 minutes per side. 3. Add cheese to patties during the last minute of cooking. 4. Assemble burger by placing patty on bun and topping with lettuce and tomato.",
         "rating": 4.5
       },
       {
         "id": 2,
         "Picture": "https://i.ibb.co/MNWvX6H/image-7.png",
-        "recipeName": "Homemade Pizza",
+        "recipeName": "Southern Fried Chicken",
         "ingredients": [
-          "pizza dough",
-          "tomato sauce",
-          "mozzarella cheese",
-          "pepperoni",
-          "mushrooms"
+          "chicken pieces",
+          "buttermilk",
+          "flour",
+          "salt",
+          "pepper"
         ],
-        "cookingMethod": "1. Preheat oven to 450°F. 2. Roll out pizza dough on a floured surface. 3. Spread tomato sauce over the dough. 4. Add shredded mozzarella cheese on top of the sauce. 5. Add pepperoni and sliced mushrooms. 6. Bake for 12-15 minutes or until crust is golden brown. 7. Slice and serve.",
-        "rating": 4.8
+        "cookingMethod": "1. Soak chicken in buttermilk for 2 hours. 2. Mix flour, salt, and pepper in a bowl. 3. Remove chicken from buttermilk and coat in flour mixture. 4. Fry in hot oil until golden brown and cooked through.",
+        "rating": 4.2
       },
       {
         "id": 3,
         "Picture": "https://i.ibb.co/ggZ7Z0m/image-8.png",
-        "recipeName": "Chicken Teriyaki",
+        "recipeName": "Creamy Mac and Cheese",
         "ingredients": [
-          "chicken breast",
-          "soy sauce",
-          "brown sugar",
-          "garlic",
-          "sesame seeds"
+          "elbow macaroni",
+          "butter",
+          "flour",
+          "milk",
+          "cheddar cheese"
         ],
-        "cookingMethod": "1. Cut chicken breast into bite-sized pieces. 2. In a small bowl, whisk together soy sauce, brown sugar, and minced garlic. 3. Heat a large skillet over medium-high heat. 4. Add the chicken and pour the soy sauce mixture over it. 5. Cook until the chicken is cooked through and the sauce has thickened. 6. Serve over rice and sprinkle with sesame seeds.",
+        "cookingMethod": "1. Cook macaroni according to package directions. 2. In a saucepan, melt butter and whisk in flour. 3. Gradually whisk in milk and cook until thickened. 4. Stir in cheese until melted and smooth. 5. Combine cheese sauce with cooked macaroni.",
         "rating": 4.3
       }
     ]
@@ -59,96 +59,102 @@
     "yearsOfExperience": 5,
     "numberOfRecipes": 20,
     "ratings": 500,
-    "bio":"John Doe is a talented and ambitious chef with 5 years of experience in the culinary industry. Despite his relatively short time in the profession, he has already developed an impressive collection of 20 unique and flavorful recipes. With a remarkable rating of 500, it's clear that John's food resonates with his audience. He prides himself on using only the freshest ingredients and innovative techniques to create dishes that are both visually stunning and delicious. ",
+    "bio": "John Doe is a talented and ambitious chef with 5 years of experience in the culinary industry. Despite his relatively short time in the profession, he has already developed an impressive collection of 20 unique and flavorful recipes. With a remarkable rating of 500, it's clear that John's food resonates with his audience. He prides himself on using only the freshest ingredients and innovative techniques to create dishes that are both visually stunning and delicious. ",
     "recipi": [
       {
         "id": 4,
         "Picture": "https://i.ibb.co/dgT9T2z/image-9.png",
-        "recipeName": "Roasted Vegetable Salad",
+        "recipeName": "Slow Cooker BBQ Ribs",
         "ingredients": [
-          "mixed vegetables (zucchini, bell pepper, eggplant, etc.)",
-          "olive oil",
-          "balsamic vinegar",
-          "salt",
-          "pepper"
+          "pork ribs",
+          "BBQ sauce",
+          "brown sugar",
+          "paprika",
+          "garlic powder"
         ],
-        "cookingMethod": "1. Preheat oven to 400°F. 2. Cut the vegetables into bite-sized pieces. 3. Toss the vegetables in olive oil, balsamic vinegar, salt, and pepper. 4. Spread the vegetables on a baking sheet. 5. Roast in the oven for 20-25 minutes, or until the vegetables are tender and lightly browned. 6. Serve warm or at room temperature.",
-        "rating": 4.1
+        "cookingMethod": "1. Rub ribs with brown sugar, paprika, and garlic powder. 2. Place in slow cooker and cook on low for 6-8 hours. 3. Brush with BBQ sauce and broil for 5-10 minutes until crispy.",
+        "rating": 4.6
       },
       {
         "id": 5,
         "Picture": "https://i.ibb.co/qYMKzQz/image-10.png",
-        "recipeName": "Beef Stew",
+        "recipeName": "BBQ Pulled Pork",
         "ingredients": [
-          "beef chuck",
-          "carrots",
-          "potatoes",
-          "onion",
-          "beef broth"
+          "pork shoulder",
+          "BBQ sauce",
+          "brown sugar",
+          "garlic powder",
+          "onion powder"
         ],
-        "cookingMethod": "1. Cut beef chuck into bite-sized pieces. 2. In a large pot or Dutch oven, brown the beef over medium-high heat. 3. Add diced onion, sliced carrots, and cubed potatoes to the pot. 4. Pour beef broth over the ingredients. 5. Bring the stew to a boil, then reduce heat and simmer for 1-2 hours, or until the beef is tender. 6. Serve hot.",
-        "rating": 4.6
+        "cookingMethod": "1. Rub the pork shoulder with a mixture of brown sugar, garlic powder, and onion powder. 2. Place the pork shoulder in a slow cooker and pour BBQ sauce over it. 3. Cook on low for 8-10 hours, or until the pork is tender and falling apart. 4. Use two forks to shred the pork. 5. Serve on a bun with extra BBQ sauce, if desired.",
+        "rating": 4.5
       },
       {
         "id": 6,
         "Picture": "https://i.ibb.co/b3PRMgF/image-11.png",
-        "recipeName": "Garlic Shrimp Scampi",
-        "ingredients": ["spaghetti", "shrimp", "garlic", "butter", "lemon"],
-        "cookingMethod": "1. Cook spaghetti according to package instructions. 2. Melt butter in a large skillet over medium heat. 3. Add minced garlic to the skillet and cook until fragrant. 4. Add the shrimp to the skillet and cook until pink. 5. Add the cooked spaghetti to the skillet and toss with the shrimp and garlic butter sauce. 6. Squeeze fresh lemon juice over the top and serve.",
-        "rating": 4.7
+        "recipeName": "Baked Mac and Cheese",
+        "ingredients": [
+          "macaroni",
+          "butter",
+          "flour",
+          "milk",
+          "cheddar cheese"
+        ],
+        "cookingMethod": "1. Preheat oven to 350°F. 2. Cook macaroni according to package instructions. Drain and set aside. 3. In a saucepan, melt butter over medium heat. 4. Add flour and whisk until smooth. 5. Gradually add milk, whisking constantly, until mixture thickens. 6. Add cheddar cheese and stir until melted. 7. Combine macaroni and cheese sauce in a baking dish. 8. Bake for 20-25 minutes, or until golden brown.",
+        "rating": 4.2
       }
     ]
   },
   {
     "id": 3,
-    "chefPicture": "https://i.ibb.co/9r3QyJ7/image-2.png",
-    "chefName": "Emily Kim",
+    "chefPicture": "https://i.ibb.co/88mqN4B/image-19.png",
+    "chefName": "Emily Olivia",
     "yearsOfExperience": 8,
     "numberOfRecipes": 35,
     "ratings": 700,
-    "bio":"Emily Kim is a skilled and creative chef with 8 years of experience in the culinary field. She has curated an impressive collection of 35 recipes that are sure to tantalize taste buds. With an impressive rating of 700, Emily has earned a reputation for delivering high-quality food that exceeds expectations. Her dedication to her craft is evident in the innovative techniques and unique flavor combinations she uses to create her dishes. Emily is a rising star in the culinary world, and her passion for food and commitment to excellence make her a force to be reckoned with.",
+    "bio": "Emily Olivia is a skilled and creative chef with 8 years of experience in the culinary field. She has curated an impressive collection of 35 recipes that are sure to tantalize taste buds. With an impressive rating of 700, Emily has earned a reputation for delivering high-quality food that exceeds expectations. Her dedication to her craft is evident in the innovative techniques and unique flavor combinations she uses to create her dishes. Emily is a rising star in the culinary world, and her passion for food and commitment to excellence make her a force to be reckoned with.",
     "recipi": [
       {
         "id": 7,
         "Picture": "https://i.ibb.co/JnWjrHq/image-12.png",
-        "recipeName": "Beef Tacos",
+        "recipeName": "Chicken Fajitas",
         "ingredients": [
-          "beef",
-          "taco seasoning",
-          "taco shells",
-          "lettuce",
-          "tomatoes"
+          "chicken breasts",
+          "bell peppers",
+          "onion",
+          "olive oil",
+          "fajita seasoning"
         ],
-        "cookingMethod": "1. Brown ground beef in a large skillet over medium-high heat. 2. Add taco seasoning and stir to combine. 3. Heat taco shells in the oven according to package instructions. 4. Assemble tacos by filling each shell with seasoned beef, shredded lettuce, and diced tomatoes. 5. Serve with your favorite toppings.",
+        "cookingMethod": "1. Cut chicken breasts into thin strips. 2. Cut bell peppers and onion into thin strips. 3. Heat olive oil in a large skillet over medium-high heat. 4. Add chicken strips and cook until browned. 5. Add bell peppers and onion to the skillet and cook until vegetables are tender. 6. Add fajita seasoning and stir to combine. 7. Serve with warm tortillas.",
         "rating": 4.4
       },
       {
         "id": 8,
         "Picture": "https://i.ibb.co/sgqzVp0/image-13.png",
-        "recipeName": "Caprese Salad",
+        "recipeName": "Beef Chili",
         "ingredients": [
-          "tomatoes",
-          "fresh mozzarella",
-          "basil leaves",
-          "olive oil",
-          "balsamic vinegar"
+          "ground beef",
+          "tomato sauce",
+          "kidney beans",
+          "chili powder",
+          "cumin"
         ],
-        "cookingMethod": "1. Slice tomatoes and fresh mozzarella into 1/4-inch thick rounds. 2. Arrange the slices in a circular pattern on a large platter. 3. Add basil leaves on top of the cheese and tomatoes. 4. Drizzle olive oil and balsamic vinegar over the top of the salad. 5. Season with salt and pepper, to taste. 6. Serve at room temperature.",
-        "rating": 4.2
+        "cookingMethod": "1. Brown ground beef in a large pot over medium-high heat. 2. Add tomato sauce, kidney beans, chili powder, and cumin to the pot. 3. Bring mixture to a simmer and let cook for 20-25 minutes. 4. Serve hot with shredded cheese and sour cream, if desired.",
+        "rating": 4.3
       },
       {
         "id": 9,
         "Picture": "https://i.ibb.co/r7LXK1b/image-14.png",
-        "recipeName": "Vegetable Fried Rice",
+        "recipeName": "Classic Hamburger",
         "ingredients": [
-          "rice",
-          "mixed vegetables (carrots, peas, corn, etc.)",
-          "eggs",
-          "soy sauce",
-          "sesame oil"
+          "ground beef",
+          "salt",
+          "pepper",
+          "hamburger buns",
+          "lettuce"
         ],
-        "cookingMethod": "1. Cook rice according to package instructions. 2. In a large skillet or wok, scramble eggs over high heat. 3. Add the mixed vegetables to the skillet and stir-fry until tender. 4. Add cooked rice to the skillet and stir-fry until heated through. 5. Drizzle with soy sauce and sesame oil, and toss to combine. 6. Serve hot.",
-        "rating": 4.0
+        "cookingMethod": "1. Preheat a grill or grill pan to medium-high heat. 2. In a bowl, mix ground beef with salt and pepper. 3. Form into patties. 4. Grill patties for 4-5 minutes on each side. 5. Toast hamburger buns on the grill. 6. Assemble hamburger with lettuce and any other desired toppings.",
+        "rating": 4.5
       }
     ]
   },
@@ -159,102 +165,102 @@
     "yearsOfExperience": 15,
     "numberOfRecipes": 80,
     "ratings": 900,
-    "bio":"James Brown is a talented and ambitious chef with 15 years of experience in the culinary industry. Despite his relatively short time in the profession, he has already developed an impressive collection of 80 unique and flavorful recipes. With a remarkable rating of 900, it's clear that John's food resonates with his audience. He prides himself on using only the freshest ingredients and innovative techniques to create dishes that are both visually stunning and delicious. ",
+    "bio": "James Brown is a talented and ambitious chef with 15 years of experience in the culinary industry. Despite his relatively short time in the profession, he has already developed an impressive collection of 80 unique and flavorful recipes. With a remarkable rating of 900, it's clear that John's food resonates with his audience. He prides himself on using only the freshest ingredients and innovative techniques to create dishes that are both visually stunning and delicious. ",
     "recipi": [
       {
         "id": 10,
         "Picture": "https://i.ibb.co/q9dXR9V/image-15.png",
-        "recipeName": "Grilled Chicken Salad",
+        "recipeName": "Crispy Fried Chicken",
         "ingredients": [
-          "chicken breast",
-          "mixed greens",
-          "cucumber",
-          "tomato",
-          "avocado"
+          "chicken pieces",
+          "buttermilk",
+          "flour",
+          "paprika",
+          "salt"
         ],
-        "cookingMethod": "1. Season chicken breast with salt and pepper. 2. Grill the chicken over medium-high heat until cooked through. 3. Slice the chicken into thin strips. 4. Arrange mixed greens on a plate. 5. Add sliced cucumber, tomato, and avocado on top of the greens. 6. Add sliced chicken on top of the salad. 7. Drizzle with your favorite dressing and serve.",
+        "cookingMethod": "1. Preheat oil in a deep fryer or large pot to 350°F. 2. Soak chicken pieces in buttermilk. 3. In a bowl, mix flour, paprika, and salt. 4. Coat chicken pieces in flour mixture. 5. Fry chicken in hot oil for 10-12 minutes or until golden brown and cooked through. 6. Drain on paper towels before serving.",
         "rating": 4.3
       },
       {
         "id": 11,
         "Picture": "https://i.ibb.co/JvhBB6F/image-16.png",
-        "recipeName": "Beef Stroganoff",
+        "recipeName": "Macaroni and Cheese",
         "ingredients": [
-          "beef",
-          "mushrooms",
-          "onion",
-          "sour cream",
-          "beef broth"
+          "macaroni",
+          "butter",
+          "flour",
+          "milk",
+          "cheddar cheese"
         ],
-        "cookingMethod": "1. Cook egg noodles according to package instructions. 2. In a large skillet, cook beef and onions over medium heat until browned. 3. Add mushrooms and continue cooking until they are tender. 4. Stir in sour cream and beef broth. 5. Simmer until the sauce is heated through. 6. Serve over cooked egg noodles.",
-        "rating": 4.5
+        "cookingMethod": "1. Cook macaroni according to package directions. 2. In a saucepan, melt butter over medium heat. 3. Stir in flour and cook for 1-2 minutes. 4. Slowly whisk in milk, stirring constantly until mixture thickens. 5. Add cheddar cheese and stir until melted. 6. Toss macaroni with cheese sauce and serve.",
+        "rating": 4.2
       },
       {
         "id": 12,
         "Picture": "https://i.ibb.co/FsD6bdy/image-17.png",
-        "recipeName": "Chicken Alfredo",
+        "recipeName": "Grilled BBQ Chicken",
         "ingredients": [
-          "chicken",
-          "fettuccine",
-          "butter",
-          "heavy cream",
-          "parmesan cheese"
+          "chicken breasts",
+          "BBQ sauce",
+          "olive oil",
+          "salt",
+          "pepper"
         ],
-        "cookingMethod": "1. Cook fettuccine according to package instructions. 2. In a large skillet, melt butter over medium heat. 3. Add chicken to the skillet and cook until no longer pink. 4. Pour in heavy cream and bring to a simmer. 5. Add grated parmesan cheese and stir until melted. 6. Toss the cooked fettuccine in the sauce until well coated. 7. Serve hot.",
-        "rating": 4.6
+        "cookingMethod": "1. Preheat grill to medium-high heat. 2. Brush chicken with olive oil and season with salt and pepper. 3. Grill chicken for 5-7 minutes on each side, or until cooked through. 4. Brush chicken with BBQ sauce during the last 2 minutes of grilling. 5. Serve hot with additional BBQ sauce on the side.",
+        "rating": 4.5
       }
     ]
   },
   {
     "id": 5,
     "chefPicture": "https://i.ibb.co/jfdSLy4/image-4.png",
-    "chefName": "Lucy Lee",
+    "chefName": "Emma Ava",
     "yearsOfExperience": 3,
     "numberOfRecipes": 10,
     "ratings": 200,
-    "bio":"Lucy Lee is a talented and ambitious chef with 3 years of experience in the culinary industry. Despite his relatively short time in the profession, he has already developed an impressive collection of 10 unique and flavorful recipes. With a remarkable rating of 200, it's clear that John's food resonates with his audience. He prides himself on using only the freshest ingredients and innovative techniques to create dishes that are both visually stunning and delicious. ",
+    "bio": "Emma Ava is a talented and ambitious chef with 3 years of experience in the culinary industry. Despite his relatively short time in the profession, he has already developed an impressive collection of 10 unique and flavorful recipes. With a remarkable rating of 200, it's clear that John's food resonates with his audience. He prides himself on using only the freshest ingredients and innovative techniques to create dishes that are both visually stunning and delicious. ",
     "recipi": [
       {
         "id": 13,
         "Picture": "https://i.ibb.co/MNWvX6H/image-7.png",
-        "recipeName": "Fish Tacos",
+        "recipeName": "Baked Mac and Cheese",
         "ingredients": [
-          "white fish",
-          "taco seasoning",
-          "taco shells",
-          "cabbage",
-          "lime"
+          "elbow macaroni",
+          "butter",
+          "flour",
+          "milk",
+          "cheddar cheese"
         ],
-        "cookingMethod": "1. Coat fish with taco seasoning. 2. Heat a large skillet over medium-high heat. 3. Cook the fish in the skillet until it flakes easily. 4. Heat taco shells in the oven according to package instructions. 5. Assemble tacos by filling each shell with cooked fish, shredded cabbage, and a squeeze of fresh lime juice. 6. Serve with your favorite toppings.",
-        "rating": 4.1
+        "cookingMethod": "1. Cook macaroni according to package instructions. 2. In a separate saucepan, melt butter over medium heat. 3. Whisk in flour until mixture is smooth. 4. Gradually whisk in milk and continue cooking, stirring constantly, until mixture thickens. 5. Stir in cheddar cheese until melted and smooth. 6. Combine macaroni and cheese sauce in a baking dish. 7. Bake at 350°F for 20-25 minutes, or until hot and bubbly. 8. Serve hot.",
+        "rating": 4.7
       },
       {
         "id": 14,
         "Picture": "https://i.ibb.co/b3PRMgF/image-11.png",
-        "recipeName": "Pesto Pasta",
+        "recipeName": "BBQ Pulled Pork Sandwiches",
         "ingredients": [
-          "pasta",
-          "basil pesto",
-          "grape tomatoes",
-          "parmesan cheese",
-          "pine nuts"
+          "pork shoulder",
+          "BBQ sauce",
+          "buns",
+          "coleslaw",
+          "pickles"
         ],
-        "cookingMethod": "1. Cook pasta according to package instructions. 2. In a large skillet, heat basil pesto over medium heat. 3. Add grape tomatoes and cook until they burst. 4. Add cooked pasta to the skillet and toss with the pesto sauce. 5. Sprinkle with grated parmesan cheese and toasted pine nuts. 6. Serve hot.",
-        "rating": 4.4
+        "cookingMethod": "1. Rub pork shoulder with salt and pepper. 2. Place in slow cooker and cover with BBQ sauce. 3. Cook on low for 8-10 hours, or until pork is tender and falls apart easily. 4. Shred pork with two forks. 5. Toast buns and assemble sandwiches with pork, coleslaw, and pickles. 6. Serve hot.",
+        "rating": 4.8
       },
       {
         "id": 15,
         "Picture": "https://i.ibb.co/q9dXR9V/image-15.png",
-        "recipeName": "Roasted Vegetables",
+        "recipeName": "Beef Chili",
         "ingredients": [
-          "butternut squash",
-          "sweet potato",
+          "ground beef",
           "onion",
           "bell pepper",
-          "olive oil"
+          "canned tomatoes",
+          "kidney beans"
         ],
-        "cookingMethod": "1. Preheat oven to 400 degrees F. 2. Peel and chop butternut squash and sweet potato into 1-inch cubes. 3. Cut onion and bell pepper into large pieces. 4. Toss vegetables with olive oil and spread onto a large baking sheet. 5. Roast in the oven for 30-35 minutes, or until vegetables are tender and browned. 6. Serve hot.",
-        "rating": 4.0
+        "cookingMethod": "1. Brown ground beef in a large pot over medium-high heat. 2. Add onion and bell pepper and cook until vegetables are soft. 3. Stir in canned tomatoes, kidney beans, and chili powder. 4. Bring to a simmer and cook for 20-30 minutes, or until flavors have melded together. 5. Serve hot with toppings like cheese, sour cream, and scallions.",
+        "rating": 4
       }
     ]
   },
@@ -265,43 +271,57 @@
     "yearsOfExperience": 12,
     "numberOfRecipes": 60,
     "ratings": 650,
-    "bio":"David Chen is a talented and ambitious chef with 12 years of experience in the culinary industry. Despite his relatively short time in the profession, he has already developed an impressive collection of 60 unique and flavorful recipes. With a remarkable rating of 650, it's clear that John's food resonates with his audience. He prides himself on using only the freshest ingredients and innovative techniques to create dishes that are both visually stunning and delicious. ",
+    "bio": "David Chen is a talented and ambitious chef with 12 years of experience in the culinary industry. Despite his relatively short time in the profession, he has already developed an impressive collection of 60 unique and flavorful recipes. With a remarkable rating of 650, it's clear that John's food resonates with his audience. He prides himself on using only the freshest ingredients and innovative techniques to create dishes that are both visually stunning and delicious. ",
     "recipi": [
       {
         "id": 16,
         "Picture": "https://i.ibb.co/FsD6bdy/image-17.png",
-        "recipeName": "Baked Salmon",
+        "recipeName": "Buffalo Chicken Dip",
         "ingredients": [
-          "salmon fillets",
-          "butter",
-          "lemon juice",
-          "dill",
-          "garlic"
+          "cooked chicken, shredded",
+          "cream cheese",
+          "ranch dressing",
+          "hot sauce",
+          "shredded cheddar cheese"
         ],
-        "cookingMethod": "1. Preheat oven to 375 degrees F. 2. Melt butter in a small saucepan. 3. Add lemon juice, dill, and minced garlic to the melted butter. 4. Brush the butter mixture onto the salmon fillets. 5. Place salmon fillets in a baking dish and bake for 15-20 minutes, or until salmon is cooked through. 6. Serve hot.",
-        "rating": 4.3
+        "cookingMethod": "1. Preheat oven to 350°F. 2. In a mixing bowl, combine cooked chicken, cream cheese, ranch dressing, and hot sauce. 3. Spread mixture evenly into a baking dish. 4. Sprinkle shredded cheddar cheese over the top. 5. Bake for 20-25 minutes or until heated through and cheese is melted. 6. Serve hot with tortilla chips, crackers or veggies.",
+        "rating": 4.6
       },
       {
         "id": 17,
         "Picture": "https://i.ibb.co/dgT9T2z/image-9.png",
-        "recipeName": "Shrimp Scampi",
+        "recipeName": "Chicken and Dumplings",
         "ingredients": [
-          "shrimp",
+          "chicken breasts",
+          "carrots",
+          "celery",
+          "onion",
+          "flour",
+          "baking powder",
+          "milk",
           "butter",
-          "garlic",
-          "white wine",
-          "lemon juice"
+          "salt",
+          "pepper"
         ],
-        "cookingMethod": "1. Cook pasta according to package instructions. 2. In a large skillet, melt butter over medium heat. 3. Add minced garlic to the skillet and cook for 1-2 minutes. 4. Add shrimp to the skillet and cook until pink. 5. Pour in white wine and lemon juice and bring to a simmer. 6. Toss cooked pasta in the sauce until well coated. 7. Serve hot.",
+        "cookingMethod": "1. In a large pot, bring chicken breasts to a boil and simmer until fully cooked. 2. Remove chicken from pot and let cool, then shred chicken into small pieces. 3. Add diced carrots, celery, and onion to the dish 4. Serve hot.",
         "rating": 4.8
       },
       {
         "id": 18,
         "Picture": "https://i.ibb.co/sgqzVp0/image-13.png",
-        "recipeName": "Cauliflower Fried Rice",
-        "ingredients": ["cauliflower", "carrots", "peas", "eggs", "soy sauce"],
-        "cookingMethod": "1. Cut cauliflower into small florets and pulse in a food processor until it resembles rice. 2. Heat a large skillet over medium-high heat. 3. Add diced carrots to the skillet and cook until slightly tender. 4. Add cauliflower rice and frozen peas to the skillet and cook until heated through. 5. In a separate skillet, scramble eggs and add to the cauliflower mixture. 6. Drizzle soy sauce over the cauliflower mixture and toss until well combined. 7. Serve hot.",
-        "rating": 4.2
+        "recipeName": "BBQ Ribs",
+        "ingredients": [
+          "pork ribs",
+          "BBQ sauce",
+          "brown sugar",
+          "paprika",
+          "garlic powder",
+          "onion powder",
+          "salt",
+          "pepper"
+        ],
+        "cookingMethod": "1. Preheat oven to 275°F. 2. Mix together brown sugar, paprika, garlic powder, onion powder, salt, and pepper in a small bowl. 3. Rub the spice mixture all over the pork ribs. 4. Place the ribs on a baking sheet and cover tightly with aluminum foil. 5. Bake in the oven for 2-2.5 hours or until the meat is tender and cooked through. 6. Remove ribs from oven and brush with BBQ sauce. 7. Grill the ribs on high heat for 3-4 minutes per side or until the sauce is caramelized and sticky. 8. Serve hot with extra BBQ sauce.",
+        "rating": 4.8
       }
     ]
   }

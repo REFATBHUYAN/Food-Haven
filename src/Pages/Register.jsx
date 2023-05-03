@@ -8,7 +8,7 @@ const Register = () => {
   const [err, setErr] = useState("");
   const navigate = useNavigate();
   const location = useLocation();
-  console.log(location);
+  // console.log(location);
   const from = location.state?.from?.from?.pathname || "/";
 
   const resterUser = (e) => {
@@ -23,7 +23,7 @@ const Register = () => {
       setErr("Password should be at least 6 characters");
       return;
     }
-    console.log(name, photo, email, password);
+    // console.log(name, photo, email, password);
     createUser(email, password)
       .then((result) => {
         const createdUser = result.user;
@@ -32,18 +32,17 @@ const Register = () => {
         logOut();
         toast.success('Register Successfully!--- please go to Login')
         // navigate("/login");
-        // console.log(createdUser);
       })
       .catch((error) => {
-        console.log(error);
+        setErr(error.message);
       });
   };
   const userPhotoUpdate = (user, name, photo) => {
     updateUser(user, name, photo)
       .then(() => {
-        console.log("user updated");
+        // console.log("user updated");
       })
-      .catch((error) => console.log(error));
+      .catch((error) => setErr(error.message));
   };
 
   return (

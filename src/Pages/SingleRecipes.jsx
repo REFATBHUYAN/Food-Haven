@@ -27,7 +27,7 @@ const SingleRecipes = ({ singleRecipi }) => {
           <p className="text-start font-semibold">Ingredients:</p>
           <ol className="text-start">
             {ingredients.map((ing, i) => (
-              <li>
+              <li key={i}>
                 {i + 1}. {ing}
               </li>
             ))}

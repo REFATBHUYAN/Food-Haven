@@ -1,5 +1,6 @@
 import React from "react";
-import Pdf from "react-to-pdf";
+// import Pdf from "react-to-pdf";
+import ReactToPdf from "react-to-pdf";
 const ref = React.createRef();
 
 const Blog = () => {
@@ -7,13 +8,13 @@ const Blog = () => {
     <div  className="max-w-full bg-orange-50">
       <div className="max-w-7xl mx-auto p-10">
         <h1 className="font-bold text-4xl text-center">Blog</h1>
-        <Pdf targetRef={ref} filename="blog.pdf">
+        <ReactToPdf targetRef={ref} filename="blog.pdf">
           {({ toPdf }) => (
             <button className="btn btn-info bg-orange-400" onClick={toPdf}>
               Download
             </button>
           )}
-        </Pdf>
+        </ReactToPdf>
       </div>
       <div className="max-w-7xl mx-auto p-10">
         <div ref={ref} className="w-full">
