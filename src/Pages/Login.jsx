@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import { FaGithubSquare, FaGoogle } from "react-icons/fa";
 import { AuthContext } from "../Provider/AuthProvider";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Toaster } from "react-hot-toast";
 
 const Login = () => {
     const [err, setErr] = useState('');
@@ -58,7 +59,7 @@ const Login = () => {
     }
 
   return (
-    <div className="w-3/4 md:w-1/4 mx-auto my-14">
+    <div className="w-3/4 md:w-1/4 mx-auto py-14">
       <form onSubmit={hangleLogin}>
         <h1 className="text-center font-bold text-3xl my-4">Please Login</h1>
         <div className="mb-6">
@@ -72,7 +73,7 @@ const Login = () => {
             type="email"
             id="email"
              name="email"
-            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-cyan-500 focus:border-cyan-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-cyan-500 dark:focus:border-cyan-500"
             placeholder="Enter your Email Here"
             required
           />
@@ -88,24 +89,25 @@ const Login = () => {
             type="password"
             id="password"
             name="password"
-            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-cyan-500 focus:border-cyan-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-cyan-500 dark:focus:border-cyan-500"
             required
           />
         </div>
         <button
           type="submit"
-          className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          className="text-white bg-cyan-700 hover:bg-cyan-800 focus:ring-4 focus:outline-none focus:ring-cyan-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800"
         >
           Login
         </button>
-        <p className="font-bold mt-3">Don't have any Account ? Please ... <Link state={{from: location?.state}} to='/register' className="text-blue-600 underline">Register</Link> </p>
+        <p className="font-bold mt-3">Don't have any Account ? Please ... <Link state={{from: location?.state}} to='/register' className="text-cyan-600 underline">Register</Link> </p>
       </form>
       <div className="my-5">
-        <button onClick={googleLogin} className="flex font-bold items-center justify-center gap-4 border rounded-md w-full mx-auto py-2 text-center"> <FaGoogle></FaGoogle> Login With Google</button>
-        <button onClick={githubLogin} className="flex font-bold items-center justify-center gap-4 border rounded-md w-full mx-auto py-2 text-center mt-4"> <FaGithubSquare></FaGithubSquare> Login With Github</button>
+        <button onClick={googleLogin} className="flex font-bold items-center justify-center gap-4 border border-indigo-600 rounded-md w-full mx-auto py-2 text-center"> <FaGoogle></FaGoogle> Login With Google</button>
+        <button onClick={githubLogin} className="flex font-bold items-center justify-center gap-4 border rounded-md w-full border-indigo-600 mx-auto py-2 text-center mt-4"> <FaGithubSquare></FaGithubSquare> Login With Github</button>
         
       </div>
       <div className="text-red-600 my-4 font-bold">{err}</div>
+      <Toaster position="top-center" reverseOrder={false} />
     </div>
   );
 };

@@ -8,7 +8,7 @@ const NavBar = () => {
     logOut();
   }
   return (
-    <div className="max-w-full mx-auto w-full bg-orange-100">
+    <div className="max-w-full mx-auto font-bold w-full bg-gradient-to-r from-indigo-100 to-indigo-300">
       <div className="navbar max-w-7xl mx-auto ">
         <div className="navbar-start">
           <div className="dropdown">
@@ -36,7 +36,7 @@ const NavBar = () => {
                 <NavLink
                   to={`/`}
                   className={({ isActive, isPending }) =>
-                    isActive ? "bg-amber-400" : isPending ? "pending" : ""
+                    isActive ? "bg-indigo-400" : isPending ? "pending" : ""
                   }
                 >
                   Home
@@ -46,7 +46,7 @@ const NavBar = () => {
                 <NavLink
                   to="/blog"
                   className={({ isActive, isPending }) =>
-                    isActive ? "bg-amber-400" : isPending ? "pending" : ""
+                    isActive ? "bg-indigo-400" : isPending ? "pending" : ""
                   }
                 >
                   Blog
@@ -55,7 +55,7 @@ const NavBar = () => {
             </ul>
           </div>
           <Link to="/" className="btn btn-ghost normal-case text-xl font-bold">
-          <span className="text-5xl text-orange-400">F</span>ood<span className="text-orange-400">Haven</span>
+          <span className="text-5xl text-indigo-500">F</span>ood<span className="text-indigo-500">Haven</span>
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -64,7 +64,7 @@ const NavBar = () => {
               <NavLink
                 to={`/`}
                 className={({ isActive, isPending }) =>
-                  isActive ? "bg-amber-400" : isPending ? "pending" : ""
+                  isActive ? "bg-indigo-400" : isPending ? "pending" : ""
                 }
               >
                 Home
@@ -74,7 +74,7 @@ const NavBar = () => {
               <NavLink
                 to="/blog"
                 className={({ isActive, isPending }) =>
-                  isActive ? "bg-amber-400" : isPending ? "pending" : ""
+                  isActive ? "bg-indigo-400" : isPending ? "pending" : ""
                 }
               >
                 Blog
@@ -90,7 +90,7 @@ const NavBar = () => {
                 onClick={handleLogout}
                   to="/login"
                   className={({ isActive, isPending }) =>
-                    isActive ? "bg-amber-400" : isPending ? "pending" : ""
+                    isActive ? "bg-indigo-400" : isPending ? "pending" : ""
                   }
                 >
                   LogOut
@@ -101,7 +101,7 @@ const NavBar = () => {
                 <NavLink
                   to="/login"
                   className={({ isActive, isPending }) =>
-                    isActive ? "bg-amber-400" : isPending ? "pending" : ""
+                    isActive ? "bg-indigo-400" : isPending ? "pending" : ""
                   }
                 >
                   Login

@@ -14,7 +14,7 @@ const SingleRecipes = ({ singleRecipi }) => {
   };
   return (
     <div>
-      <div className="card card-compact h-3/4  w-full bg-base-100 shadow-md rounded-md">
+      <div className="card card-compact h-3/4 text-black  w-full bg-gradient-to-r from-indigo-300 to-indigo-200 shadow-md rounded-md">
         <figure className="h-96">
           <img className="h-96" src={Picture} alt="Shoes" />
         </figure>
@@ -36,7 +36,7 @@ const SingleRecipes = ({ singleRecipi }) => {
           <button
             onClick={btnDisable}
             disabled={favourit}
-            className="btn flex mx-1 border items-center bg-orange-500  w-32 p-2 rounded-md"
+            className="btn btn-primary flex mx-1 border items-center  w-40 p-2 rounded-md"
           >
             Favourite <HiHeart className="w-10"></HiHeart>
           </button>

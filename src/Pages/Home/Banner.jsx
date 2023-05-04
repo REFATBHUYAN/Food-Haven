@@ -2,12 +2,12 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="max-w-full mx-auto w-full bg-orange-100">
+    <div className="max-w-full text-black mx-auto w-full bg-gradient-to-r from-indigo-100 to-indigo-300">
       <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4 mx-auto py-12 items-center max-w-7xl px-5 ">
         <div className="w-full pl-4">
           {/* className="md:flex mx-5 mt-8 w-full" */}
           <h1 className="font-bold text-3xl md:text-6xl">
-          <span className="text-orange-400">Food Haven :</span> Discover the Magic of <span className="text-orange-400">American</span> Food in <br />{" "}
+          <span className="text-indigo-700">Food Haven :</span> Discover the Magic of <span className="text-indigo-700">American</span> Food in <br />{" "}
             
             
           </h1>
@@ -19,7 +19,7 @@ const Banner = () => {
         </div>
         <div className="w-full mt-4">
           <img
-            className="border-2 border-orange-400 rounded-md w-full mx-auto"
+            className="border-2 border-indigo-400 rounded-md w-full mx-auto"
             src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
             alt="banner photo"
           />

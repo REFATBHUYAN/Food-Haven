@@ -2,7 +2,7 @@ import React from "react";
 
 const Catagory = () => {
   return (
-    <div className="max-w-full mx-auto py-10 bg-orange-50">
+    <div className="max-w-full text-black mx-auto py-10 bg-indigo-100">
       <div className="max-w-7xl mx-auto p-5">
         <h1 className="text-3xl font-bold text-center my-10">
           Food Categories
@@ -15,29 +15,29 @@ const Catagory = () => {
           essential for any restaurant or food service business.
         </p>
         <div className="grid md:grid-cols-4 sm: grid-cols-2 gap-4 text-center">
-          <div className="border rounded-md bg-orange-100 ">
-            <h1 className="text-black font-bold text-3xl p-4">Sandwiches</h1>
+          <div className="border rounded-md bg-indigo-400 ">
+            <h1 className="text-black font-bold sm:text-2xl md:text-3xl p-4">Sandwiches</h1>
           </div>
-          <div className="border rounded-md bg-orange-100 ">
-            <h1 className="text-black font-bold text-3xl p-4">Burgers</h1>
+          <div className="border rounded-md bg-indigo-400 ">
+            <h1 className="text-black font-bold sm:text-2xl md:text-3xl p-4">Burgers</h1>
           </div>
-          <div className="border rounded-md bg-orange-100 ">
-            <h1 className="text-black font-bold text-3xl p-4">Pizza</h1>
+          <div className="border rounded-md bg-indigo-400 ">
+            <h1 className="text-black font-bold sm:text-2xl md:text-3xl p-4">Pizza</h1>
           </div>
-          <div className="border rounded-md bg-orange-100 ">
-            <h1 className="text-black font-bold text-3xl p-4">Seafood</h1>
+          <div className="border rounded-md bg-indigo-400 ">
+            <h1 className="text-black font-bold sm:text-2xl md:text-3xl p-4">Seafood</h1>
           </div>
-          <div className="border rounded-md bg-orange-100 ">
-            <h1 className="text-black font-bold text-3xl p-4">Pasta</h1>
+          <div className="border rounded-md bg-indigo-400 ">
+            <h1 className="text-black font-bold sm:text-2xl md:text-3xl p-4">Pasta</h1>
           </div>
-          <div className="border rounded-md bg-orange-100 ">
-            <h1 className="text-black font-bold text-3xl p-4">Soups</h1>
+          <div className="border rounded-md bg-indigo-400 ">
+            <h1 className="text-black font-bold sm:text-2xl md:text-3xl p-4">Soups</h1>
           </div>
-          <div className="border rounded-md bg-orange-100 ">
-            <h1 className="text-black font-bold text-3xl p-4">Vegetarian</h1>
+          <div className="border rounded-md bg-indigo-400 ">
+            <h1 className="text-black font-bold sm:text-2xl md:text-3xl p-4">Vegetarian</h1>
           </div>
-          <div className="border rounded-md bg-orange-100 ">
-            <h1 className="text-black font-bold text-3xl p-4">Salads</h1>
+          <div className="border rounded-md bg-indigo-400 ">
+            <h1 className="text-black font-bold sm:text-2xl md:text-3xl p-4">Salads</h1>
           </div>
         </div>
       </div>

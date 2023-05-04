@@ -26,19 +26,19 @@ const Recipes = () => {
   } = singleData;
   // console.log(singleData);
   return (
-    <div className="bg-orange-50 max-w-full mx-auto">
-      <div className="grid md:grid-cols-2 sm: grid-cols-1 gap-4 text-center max-w-7xl mx-auto p-5">
+    <div className=" max-w-full mx-auto">
+      <div className="grid md:grid-cols-2 sm: grid-cols-1 gap-4 text-center max-w-7xl mx-auto p-5 text-black">
         {/* <figure className="w-full">
           <img className="w-full rounded-md" src={chefPicture} alt="Movie" />
         </figure> */}
-        <div className="w-full">
+        <div className="w-full ">
           <LazyLoad height={500} threshold={0.95}>
             <img className="w-full h-full rounded-md" src={chefPicture} alt="Movie" />
           </LazyLoad>
         </div>
         <div className="card-body">
           <h2 className="card-title">{chefName}</h2>
-          <p className="text-start">{bio}</p>
+          <p className="text-start font-semibold ">{bio}</p>
           <p className="text-start font-semibold">
             Experience: {yearsOfExperience}
           </p>
@@ -48,8 +48,8 @@ const Recipes = () => {
           </p>
         </div>
       </div>
-      <h1 className="font-bold text-3xl text-center my-5">Top Recipes</h1>
-      <div className="grid md:grid-cols-3 sm: grid-cols-1 gap-4 text-center max-w-7xl mx-auto p-10">
+      <h1 className="font-bold text-3xl text-center my-5 text-black">Top Recipes</h1>
+      <div className="grid md:grid-cols-3 sm: grid-cols-1 gap-2 text-center max-w-7xl mx-auto p-10">
         {recipi.map((r) => (
           <SingleRecipes key={r.id} singleRecipi={r}></SingleRecipes>
         ))}

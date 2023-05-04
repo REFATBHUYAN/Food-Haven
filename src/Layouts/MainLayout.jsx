@@ -15,7 +15,9 @@ const MainLayout = () => {
     <DataContext.Provider value={data}>
       <div>
         <NavBar></NavBar>
+        <div className="bg-indigo-100">
         <Outlet></Outlet>
+        </div>
         <Footer></Footer>
       </div>
     </DataContext.Provider>
