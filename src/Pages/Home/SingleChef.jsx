@@ -37,7 +37,7 @@ const SingleChef = ({ sinData }) => {
             Number of Recipes: {numberOfRecipes}
           </p>
           <div className="card-actions justify-start">
-            <Link to={`/${id}`} className="btn btn-primary">
+            <Link to={`/chef/${id}`} className="btn btn-primary">
               View Recipes
             </Link>
           </div>

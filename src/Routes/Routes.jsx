@@ -32,7 +32,7 @@ const router = createBrowserRouter([
             element: <Register></Register>
         },
         {
-            path:'/:id',
+            path:'chef/:id',
             element: <PrivateRoutes><Recipes></Recipes></PrivateRoutes>
         }
       ]
