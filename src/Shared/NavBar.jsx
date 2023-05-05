@@ -8,7 +8,7 @@ const NavBar = () => {
     logOut();
   }
   return (
-    <div className="max-w-full mx-auto font-bold w-full bg-gradient-to-r from-indigo-100 to-indigo-300">
+    <div className="max-w-full mx-auto text-black font-bold w-full bg-gradient-to-r from-indigo-100 to-indigo-300">
       <div className="navbar max-w-7xl mx-auto ">
         <div className="navbar-start">
           <div className="dropdown">
@@ -83,6 +83,11 @@ const NavBar = () => {
           </ul>
         </div>
         <div className="navbar-end">
+        {
+            user && <button title={user?.displayName} className="w-10 rounded-full ml-4">
+            <img className="w-10 rounded-full mr-4" src={user?.photoURL} />
+          </button>
+          }
           <ul className="menu menu-horizontal px-1">
             {user ? (
               <li>
@@ -109,11 +114,11 @@ const NavBar = () => {
               </li>
             )}
           </ul>
-          {
+          {/* {
             user && <button title={user?.displayName} className="w-10 rounded-full ml-4">
             <img className="w-10 rounded-full mr-4" src={user?.photoURL} />
           </button>
-          }
+          } */}
         </div>
       </div>
     </div>

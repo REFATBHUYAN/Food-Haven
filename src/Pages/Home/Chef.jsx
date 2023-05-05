@@ -7,7 +7,7 @@ const Chef = () => {
   const {data} = useContext(AuthContext);
   // const { chefName } = data;
   return (
-    <div className="max-w-full mx-auto py-10 bg-indigo-100">
+    <div className="max-w-full text-black mx-auto py-10 bg-indigo-100">
       <div className="max-w-7xl mx-auto p-10">
         <h1 className="text-3xl font-bold text-center my-10">
           Meet Our Chef

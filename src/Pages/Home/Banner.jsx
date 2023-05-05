@@ -11,7 +11,7 @@ const Banner = () => {
             
             
           </h1>
-          <p className="w-full my-5">
+          <p className="w-full my-5 text-black">
             Welcome to Food Haven, where every bite tells a story. Our dishes
             are expertly crafted using the finest ingredients and inspired by
             cultures from around the world. Come and discover the magic.

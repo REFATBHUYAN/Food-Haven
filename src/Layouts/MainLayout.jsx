@@ -13,7 +13,7 @@ const MainLayout = () => {
 //   console.log(data);
   return (
     <DataContext.Provider value={data}>
-      <div>
+      <div >
         <NavBar></NavBar>
         <div className="bg-indigo-100">
         <Outlet></Outlet>

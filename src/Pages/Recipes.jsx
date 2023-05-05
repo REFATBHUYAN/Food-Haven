@@ -36,10 +36,10 @@ const Recipes = () => {
             <img className="w-full h-full rounded-md" src={chefPicture} alt="Movie" />
           </LazyLoad>
         </div>
-        <div className="card-body">
-          <h2 className="card-title">{chefName}</h2>
-          <p className="text-start font-semibold ">{bio}</p>
-          <p className="text-start font-semibold">
+        <div className="card-body text-black">
+          <h2 className="card-title text-black">{chefName}</h2>
+          <p className="text-start font-semibold text-black ">{bio}</p>
+          <p className="text-start font-semibold ">
             Experience: {yearsOfExperience}
           </p>
           <p className="text-start font-semibold">Likes: {ratings}</p>
