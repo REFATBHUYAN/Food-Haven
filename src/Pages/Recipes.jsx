@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import SingleRecipes from "./SingleRecipes";
 import { ScrollRestoration } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
-import LazyLoad from "react-lazy-load";
+// import LazyLoad from "react-lazy-load";
 
 const Recipes = () => {
   // const [chef, setChef] = useState([]);
@@ -28,14 +28,14 @@ const Recipes = () => {
   return (
     <div className=" max-w-full mx-auto">
       <div className="grid md:grid-cols-2 sm: grid-cols-1 gap-4 text-center max-w-7xl mx-auto p-5 text-black">
-        {/* <figure className="w-full">
+        <figure className="w-full">
           <img className="w-full rounded-md" src={chefPicture} alt="Movie" />
-        </figure> */}
-        <div className="w-full ">
+        </figure>
+        {/* <div className="w-full ">
           <LazyLoad height={500} threshold={0.95}>
             <img className="w-full h-full rounded-md" src={chefPicture} alt="Movie" />
           </LazyLoad>
-        </div>
+        </div> */}
         <div className="card-body text-black">
           <h2 className="card-title text-black">{chefName}</h2>
           <p className="text-start font-semibold text-black ">{bio}</p>

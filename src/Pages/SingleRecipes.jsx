@@ -14,20 +14,21 @@ const SingleRecipes = ({ singleRecipi }) => {
   };
   return (
     <div>
-      <div className="card card-compact h-3/4 text-black  w-full bg-gradient-to-r from-indigo-300 to-indigo-200 shadow-md rounded-md">
-        <figure className="h-96">
-          <img className="h-96" src={Picture} alt="Shoes" />
+      <div className="card card-compact h-full text-black  w-full bg-gradient-to-r from-indigo-300 to-indigo-200 shadow-md rounded-md">
+        <figure className="h-1/4">
+          <img className="w-full h-full rounded-md" src={Picture} alt="Shoes" />
         </figure>
-        <div className="card-body">
+        <div className="card-body  h-3/4">
           <h2 className="card-title text-start">{recipeName}</h2>
-          <p className="text-start font-semibold">
+          <p className=" font-semibold text-justify">
             Cooking Method: {cookingMethod}
           </p>
           <p className="text-start font-semibold">Rating: {rating}</p>
-          <p className="text-start font-semibold">Ingredients:</p>
+          {/* <p className="text-start font-semibold">Ingredients:</p> */}
           <ol className="text-start">
+          <p className="text-start font-semibold">Ingredients:</p>
             {ingredients.map((ing, i) => (
-              <li key={i}>
+              <li className="pl-5" key={i}>
                 {i + 1}. {ing}
               </li>
             ))}
