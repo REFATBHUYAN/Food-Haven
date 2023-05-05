@@ -114,11 +114,6 @@ const NavBar = () => {
               </li>
             )}
           </ul>
-          {/* {
-            user && <button title={user?.displayName} className="w-10 rounded-full ml-4">
-            <img className="w-10 rounded-full mr-4" src={user?.photoURL} />
-          </button>
-          } */}
         </div>
       </div>
     </div>

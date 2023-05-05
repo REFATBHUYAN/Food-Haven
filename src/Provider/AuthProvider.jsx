@@ -25,9 +25,11 @@ const AuthProvider = ({children}) => {
     // console.log(data);
 
     const googleSingIn =() =>{
+        setLoading(true);
         return signInWithPopup(auth, googleProvider)
     }
     const githubSingIn = () =>{
+        setLoading(true);
         return signInWithPopup(auth, githubProvider)
     }
     const createUser = (email, password) =>{
