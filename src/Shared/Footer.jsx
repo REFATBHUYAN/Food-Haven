@@ -2,24 +2,24 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-indigo-400  max-w-full">
-      <footer className="footer p-10 max-w-7xl  text-black mx-auto">
+    <div className="bg-indigo-900  max-w-full">
+      <footer className="footer p-10 max-w-7xl  text-white mx-auto">
         <div>
-          <span className="footer-title">Services</span>
-          <a className="link link-hover">Takeout</a>
-          <a className="link link-hover">Dining-in</a>
-          <a className="link link-hover">Delivery</a>
-          <a className="link link-hover">Reservation system</a>
+          <span className="footer-title text-2xl text-white">Services</span>
+          <a className="link link-hover text-lg">Takeout</a>
+          <a className="link link-hover text-lg">Dining-in</a>
+          <a className="link link-hover text-lg">Delivery</a>
+          <a className="link link-hover text-lg">Reservation system</a>
         </div>
         <div>
-          <span className="footer-title">Company</span>
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Career</a>
-          <a className="link link-hover">Blog</a>
+          <span className="footer-title text-2xl text-white">Company</span>
+          <a className="link link-hover text-lg">About us</a>
+          <a className="link link-hover text-lg">Contact</a>
+          <a className="link link-hover text-lg">Career</a>
+          <a className="link link-hover text-lg">Blog</a>
         </div>
         <div>
-          <span className="footer-title">Social</span>
+          <span className="footer-title text-2xl text-white">Social</span>
           <div className="grid grid-flow-col gap-4">
             <a>
               <svg

@@ -7,7 +7,7 @@ const Banner = () => {
         <div className="w-full pl-4">
           {/* className="md:flex mx-5 mt-8 w-full" */}
           <h1 className="font-bold text-3xl md:text-6xl">
-          <span className="text-indigo-700">Food Haven :</span> Discover the Magic of <span className="text-indigo-700">American</span> Food in <br />{" "}
+          <span className="text-indigo-700">Food Haven :</span> Discover the Magic of <span className="text-indigo-700">American</span> Food<br />
             
             
           </h1>
